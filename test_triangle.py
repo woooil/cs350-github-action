@@ -4,3 +4,6 @@ def test_invalid1():
 
 def test_equilateral():
     assert triangle(3, 3, 3) == 1
+
+def test_invalid2():
+    assert triagle(1, 1, 2) == -1
